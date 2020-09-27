@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TablEat . Discover Your PlacEatery</title>
+    </head>
+    <body>
+        <header>
+            <app-bar></app-bar>
+            <nav-bar></nav-bar>
+        </header>
+        <main>
+            <div class="home">
+                <h1>Find Your Cozy Place to Eat</h1>
+                <p>TablEat is a webpage to help you find your best restaurant.
+                <br>This page is using Zomato API so you can find a lot of restaurant list in your city.</br>
+                Find the best restaurant based on it's rating and save it on your favorite.</p>
+            </div>
+            <div class="app-intro">
+                <div class="flex" id="search">
+                    <h3>Discover Restaurants</h3>
+                    <p>Find restaurant on your city</p>
+                </div>
+                <div class="flex" id="find">
+                    <h3>Find the best ratings</h3>
+                    <p>Choose the best rated restaurant</p>
+                </div>
+                <div class="flex" id="like">
+                    <h3>Have your table to eat</h3>
+                    <p>Make your favorite list</p>
+                </div>
+            </div>
+            <div id="searchIntro">
+                <h1>Start Your Eatery Journey</h1>
+            </div>
+            <div>
+                <search-bar></search-bar>
+            </div>
+            <restaurant-list></restaurant-list>
+        </main>
+        <footer>
+            <author-profile></author-profile>
+        </footer>
+    </body>
+</html>

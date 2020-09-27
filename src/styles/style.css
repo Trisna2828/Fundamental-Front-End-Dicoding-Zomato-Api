@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import "./appintro.css";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: inline;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+.home {
+    background-image: url("../assets/home-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    height: 550px;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    padding: 250px 20px 100px 20px;
+}
+
+.home p {
+    margin-top: 10px;
+    font-size: medium;
+}
+
+#searchIntro {
+    background-color: rgb(255, 210, 11);
+    height: 150px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    padding-top: 50px;
+    font-family: 'Caveat Brush', cursive;
+}
+
+app-bar {
+    background-image: url("../assets/app-bar.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+}
+
+footer {
+    background-color: black;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .home {
+        height: 330px;
+        padding: 150px 10px 50px 10px;
+    }
+
+    .home>h1 {
+        font-size: large;
+    }
+    .home>p {
+        font-size: small;
+    }
+    #searchIntro {
+        height: 100px;
+        margin-top: 5px;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home {
+        height: 180px;
+        padding: 100px 5px 50px 5px;
+    }
+
+    .home>h1 {
+        font-size: small;
+    }
+    .home>p {
+        font-size: x-small;
+    }
+    #searchIntro {
+        height: 80px;
+        margin-top: 5px;
+        padding-top: 30px;
+    }
+    #searchIntro>h1 {
+        font-size: medium;
+    }
+}
